@@ -25,13 +25,12 @@ class Solution(object):
                 
         while a <len(left) and b<len(right):
             if left[a] < right[b]:
-                array[c] = left[a]
-                a+=1
+                d.append(left_array.pop(0))
+                i+=1
                
             else:
-                array[c] = right[b]
-                b+=1
-                c+=1
+                d.append(right_array.pop(0))
+                j+=1
             
         while a < len(left) or q < len(right):
             if a < len(left):
