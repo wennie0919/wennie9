@@ -1,42 +1,29 @@
-class Solution(object):
+class Solution(object):   
+    def heap_sort( self , nums ): ###heap_sort為一個平台，設置一個funtion
+        
+        a =len(nums)   ###a=數列的長度
+        
+        for i in range( a - 1, - 1, - 1):  #用for迴圈來執行位子
+            Solution().heapify(nums,a,i)
+            
+        for i in range( a - 1, 0 , - 1):
+            nums[i],nums[0]=nums[0],nums[i]
+            Solution().heapify( nums, i, 0)  ###最大值與最後的值需要交換位子，所以用heapify來讓數列重新排列組合
+            
+        return nums
     
-    def heap_sort(self,r):   #設一個funtion
-        Ans = [] 
-        self.heapify(r)
-        
-        
-        while len(r) != 0: #用while迴圈跑list
-            Ans.append(r.pop(0)) 
-            self.heapify(r) 
-            
-            Ans.reverse()
-        
-        return Ans ##把剛剛的結果顯示出來
-    
-    def build_heap(self, r):
-        a = len(r)  ###設長度是a
-        last_node = a-1  ###這是最後的節點
-        parent = (a-1-1)//2  
-        
 
-        for parent in range(parent,-1,-1):  #父母需往回跑，所以是負一
-            self.heapify(r,a,parent) 
-            
-    def heapify(self,r,a,i):
+    def heapify( self, nums, a, i):   ###heapify為一個平台，設置一個funtion
+        root = i   ##樹根
+        L = 2 * i + 1  ###left=L
+        R = 2 * i + 2  ###right=R 這裡是因為有左右兩邊的孩子，為了區分它們而設置
         
-        if i >= n:  # 若i大於n，直接回傳，大於n才可往下跑
-            return nums
-
-        root=i
-        L=2*i+1  #left
-        R=2*i+2  #right
-        
-        if left < a and r[L]>r[root]:
-            root = L
-            
-        if right < a and r[R] > r[root] :
-            root = R
-            
-        if root != i:  #可以更換位子
-            r[root],r[i]=nums[i],r[root]
-            Solution().heapify(r,a,root)
+        if L < a and nums[ L ] > nums[ root ]:
+            root = L   ##左邊若大於樹根，那左邊的孩子就會取代樹根的位子
+        if R < a and nums[R] > nums[ root ] :
+            root = R   ##右邊若大於樹根，那右邊的孩子就會取代樹根的位子
+        if root != i:  ###可以更換位子
+            nums[ root ],nums[ i ]=nums[ i ],nums[ root ]
+            Solution().heapify( nums , a , root )
+y = [66,1,4,22,78,5,9]
+Solution().heap_sort(y)
