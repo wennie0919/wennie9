@@ -12,7 +12,7 @@ https://www.geeksforgeeks.org/heap-sort/ 才瞭解。
 
 # 程式架構設計說明
 
-![](/images/螢幕快照 2019-11-08 上午2.20.24.png)
+![](/images/heap.png)
 
 # 流程圖
 
