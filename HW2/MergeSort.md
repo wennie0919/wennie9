@@ -12,7 +12,10 @@ Merge Sort屬於Divide and Conquer演算法，把數列先分成一半，再將�
 剛開始錯誤率一大堆，就不斷查資料錯在哪裡，最後終於擠出一點東西了！！
 2.首先要先分割數列，將數列持續分半，直到它變成單一的數列。這個我花的時間相對比較少，只要把數列分成左右中三部分，排下去。
 3.重點複雜的地方來了，要把它兩兩合併在排大小，我的邏輯沒有很好，所以想了很久時間才有一點想法，我剛開始用if左邊>右邊elif左邊<=右邊，但其他的我就寫不下去了。
-就參考了以下網站找到解答，知道還要用wheil解題。
+就參考了以下網站找到解答，知道還要用while迴圈解題。
+(/n) https://www.geeksforgeeks.org/merge-sort/
+(/n) https://newaurora.pixnet.net/blog/post/224658923-%E5%90%88%E4%BD%B5%E6%8E%92%E5%BA%8F%E6%B3%95---%E4%BD%BF%E7%94%A8python
+(/n) https://medium.com/@amirziai/merge-sort-walkthrough-with-code-in-python-e4f76d90a4ea
 
 
 # 程式架構設計說明
