@@ -20,7 +20,7 @@ Merge Sort屬於Divide and Conquer演算法，把數列先分成一半，再將�
 
 # 程式架構設計說明
 
-![](/images/merge.png)
+![](/images/mergesort.png)
 
 # 流程圖
 
