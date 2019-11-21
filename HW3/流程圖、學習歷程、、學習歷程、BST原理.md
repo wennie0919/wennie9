@@ -17,7 +17,6 @@
 
 ### Ｂ、失敗
 先設置尋找的目標，再開始從tree頂端做比較，比頂端key(A)大往右走，比頂端key(A)小往左走，找不到了就回傳NULL，表示搜尋失敗。
-
 ![](/images/images/searchbad.jpg)
 
 ## DELETE(刪除資料):
