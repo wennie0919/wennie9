@@ -3,7 +3,7 @@
 顧名思義就是在BST中新增node(新增資料)，新增node需要先在BST中進行traversal，而且traversal的時間複雜度與height(樹高)成正比。
 函式InsertBST()的概念，可以視為Search()的延伸，要從tree中先找到即將新增的node需要擺放的位置，「適當的位置」就會變成「新增的node」的「parent node」，「新增的node」就會變成其「left child」or「right child」。
 
-![](/images/images/insert.jpg)
+![](/images/insert.jpg)
 
 ## SEARCH(搜尋資料)：
 
@@ -12,12 +12,13 @@
 ### Ａ、成功
 先設置尋找的目標，再開始從tree頂端做比較，比頂端key(A)大往右走，比頂端key(A)小往左走，直至成功找到目標值為止，表示搜尋成功。
 
-![](/images/images/searchgood.jpg)
+![](/images/searchgood.jpg)
 
 
 ### Ｂ、失敗
 先設置尋找的目標，再開始從tree頂端做比較，比頂端key(A)大往右走，比頂端key(A)小往左走，找不到了就回傳NULL，表示搜尋失敗。
-![](/images/images/searchbad.jpg)
+
+![](/images/searchbad.jpg)
 
 ## DELETE(刪除資料):
 刪除資料根據刪除的「child個數」可以分為三種（如圖所示）：
@@ -25,7 +26,7 @@
 2、刪除1個child:「Ｄ」下面有一個left child，刪除「Ｄ」之前，欲先使「Ｇ」接到「Ｄ」的位子上，「Ｄ」本身為「Ｂ」的right child，因此，要讓「Ｇ」取代「Ｄ」就是把「Ｇ」接到「Ｂ」的right child就可以。
 3、刪除3個child:
 
-![](/images/images/delete.jpg)
+![](/images/delete.jpg)
 
 ## MODIFY(修改資料):
 
