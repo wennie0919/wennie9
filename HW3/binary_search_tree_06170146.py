@@ -17,16 +17,14 @@ class TreeNode(object):
                 else:
                     self.right.insert(data)
         else:
-            self.data = data
-            
+            self.data = data            
     def delete(root, target): 
         if root is None: 
             return root  
         if target < root.target: 
             root.left = delete(root.left, target)   
         elif(key > root.target): 
-            root.right = delete(root.right, target) 
-  
+            root.right = delete(root.right, target)   
         else:
             if root.left is None : 
                 temp = root.right  
@@ -40,7 +38,6 @@ class TreeNode(object):
         root.target = temp.target  
         root.right = delete(root.right , temp.target) 
         return root  
-  
     def search(self, root, target):
         if root.val==target:
             return root
@@ -60,7 +57,6 @@ class TreeNode(object):
         if root.right:
             self.modify(root.right, val, new_val)           
         return root
-    
     def PrintTree(self):
         print(self.data)
 
