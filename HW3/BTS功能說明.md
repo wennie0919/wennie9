@@ -23,6 +23,6 @@
 修改tree中的資料，不管是刪除還是新增，都屬於modify(修改資料)這一環節，將一個新的數字取代原先舊的數字，也將其舊的數字刪除，可以說是insert與delete的綜合，但須符合左邊是小於或等於目標，右邊是大於目標。
 
 
-參考資料：
+## 參考資料：
 http://alrightchiu.github.io/SecondRound/binary-search-tree-sortpai-xu-deleteshan-chu-zi-liao.html
 http://alrightchiu.github.io/SecondRound/binary-search-tree-introjian-jie.html
