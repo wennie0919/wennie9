@@ -23,7 +23,7 @@ class TreeNode(object):
             return root  
         if target < root.target: 
             root.left = delete(root.left, target)   
-        elif(key > root.target): 
+        elif(target > root.target): 
             root.right = delete(root.right, target)   
         else:
             if root.left is None : 
@@ -62,3 +62,9 @@ class TreeNode(object):
 
 root = Node(1)
 root.PrintTree()
+
+
+
+##參考資料：https://medium.com/@stephenagrice/how-to-implement-a-binary-search-tree-in-python-e1cdba29c533
+####https://www.geeksforgeeks.org/modify-binary-tree-get-preorder-traversal-using-right-pointers/
+###https://codereview.stackexchange.com/questions/229921/binary-tree-sort-algorithm-python
