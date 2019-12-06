@@ -52,9 +52,8 @@ class MyHashSet:
         
         return False
     
-    ## 參考資料：
-    https://github.com/tonyforreal/Tony-learning-note/blob/master/HW4/hash_table_06170133.py
-        http://alrightchiu.github.io/SecondRound/hash-tableintrojian-jie.html
-            https://toyo0103.blogspot.com/2018/04/hash-table.html
-                https://www.nosuchfield.com/2016/07/29/the-python-implementationp-of-HashTable/
+    ## 參考資料： https://github.com/tonyforreal/Tony-learning-note/blob/master/HW4/hash_table_06170133.py 
+    #http://alrightchiu.github.io/SecondRound/hash-tableintrojian-jie.html
+           # https://toyo0103.blogspot.com/2018/04/hash-table.html
+               # https://www.nosuchfield.com/2016/07/29/the-python-implementationp-of-HashTable/
     
