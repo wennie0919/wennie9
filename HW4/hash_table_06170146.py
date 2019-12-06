@@ -12,17 +12,15 @@ class MyHashSet:
     
     def add(self, key):
         x = int(MD5.new(key.encode("utf-8")).hexdigest(),16)
-        y = x%self.capacity
+        y = x % self.capacity
         
-        if self.contains(key) != True:
-            if self.data[y] != None:
-                new = ListNode(x)
-                new.next = self.data[y]
-                self.data[y] = new
-            else:
-                self.data[y] = ListNode(x)
+        if self.data[y] == None:
+            self.data[y] = ListNode(x)
+            
         else:
-            return
+            new_node = ListNode(number)
+            new_node.next = self.data[y]
+            self.data[y] = new_node
         
     def remove(self, key):
         x = int(MD5.new(key.encode("utf-8")).hexdigest(),16)
@@ -30,13 +28,11 @@ class MyHashSet:
         z = self.data[y]
        
         if self.contains(key) != True:
-            return 
-        
+            return       
         else:
             if z.val == x:
                 self.data[y] = self.data[y].next
                 return 
-
             else:
                 point = self.data[y]
                 while point.next.val != x:
@@ -55,3 +51,10 @@ class MyHashSet:
                 return True
         
         return False
+    
+    ## 參考資料：
+    https://github.com/tonyforreal/Tony-learning-note/blob/master/HW4/hash_table_06170133.py
+        http://alrightchiu.github.io/SecondRound/hash-tableintrojian-jie.html
+            https://toyo0103.blogspot.com/2018/04/hash-table.html
+                https://www.nosuchfield.com/2016/07/29/the-python-implementationp-of-HashTable/
+    
