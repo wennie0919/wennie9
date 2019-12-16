@@ -13,11 +13,14 @@ DFS與BFS大同小異，只是queue換成了stack而已。
 
 ![](/images/example.jpg)
 
-BFS:要先看完一層目錄後，才會再看下一層。意思就是點進「image」後，要先看完「image」檔中下一層的所有檔，也就是會看到「apple」、「pig」兩個檔案。再繼續往下看，點進「apple」檔裡，會看到「red.jpg」、「small.jpg」。接者返回上一頁，點進「pig」檔裡，會看到「fat.jpg」、「cute.jpg」。
+#### BFS : 
+要先看完一層目錄後，才會再看下一層。意思就是點進「image」後，要先看完「image」檔中下一層的所有檔，也就是會看到「apple」、「pig」兩個檔案。再繼續往下看，點進「apple」檔裡，會看到「red.jpg」、「small.jpg」。接者返回上一頁，點進「pig」檔裡，會看到「fat.jpg」、「cute.jpg」。
 
-DFS:看到「image」檔就會直接點入，首先會看到「apple」檔，再點進去會看到「red.jpg」、「small.jpg」。再返回「image」檔，才會看到有「pig」檔，點進去會看到「fat.jpg」、「cute.jpg」。
+#### DFS :
+看到「image」檔就會直接點入，首先會看到「apple」檔，再點進去會看到「red.jpg」、「small.jpg」。再返回「image」檔，才會看到有「pig」檔，點進去會看到「fat.jpg」、「cute.jpg」。
 
-結論：若要在圖形中找出欲到達目標的最少步驟或尋找其中一個連通分支中的所有節點（擴散性），則可採用BFS。若要找出圖形的完整形狀或來儲存未訪問的節點，就可以採用DFS。
+#### 結論：
+若要在圖形中找出欲到達目標的最少步驟或尋找其中一個連通分支中的所有節點（擴散性），則可採用BFS。若要找出圖形的完整形狀或來儲存未訪問的節點，就可以採用DFS。
 
 
 
