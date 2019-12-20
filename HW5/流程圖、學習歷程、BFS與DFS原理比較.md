@@ -11,7 +11,8 @@
 ![](/images/bsftu.png)
 我覺得bfs、dfs其實差不多，只是dfs需要「走到底」，爾且把queue換成了stack，他們邏輯是差不多的，程式碼的pop與append都是大二有上過的內容，寫起來較順，不想前幾次作業，都會學新的程式碼。
 ![](/images/dfstu.png)
-測試結果：
+#### 測試結果：
+
 ![](/images/end.png)
 
 
