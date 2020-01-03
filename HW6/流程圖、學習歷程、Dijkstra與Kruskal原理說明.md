@@ -19,7 +19,7 @@ Kruskal相對於Dijkstra簡單許多，當上面的通了，下面就很好操�
 測試結果也順利出來了！！！每次看到沒有紅字，內心總是欣喜若狂，特別是在測資的時候就有一種可以完美劃下句號的感覺。
 ![](/images/ggg.png）
 
-
+ 
 
 ## 參考資料：http://nthucad.cs.nthu.edu.tw/~yyliu/personal/nou/04ds/dijkstra.html
 ## https://zhuanlan.zhihu.com/p/34922624
