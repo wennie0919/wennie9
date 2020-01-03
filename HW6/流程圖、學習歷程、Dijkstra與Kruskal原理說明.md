@@ -23,3 +23,4 @@ Kruskal相對於Dijkstra簡單許多，當上面的通了，下面就很好操�
 
 ## 參考資料：http://nthucad.cs.nthu.edu.tw/~yyliu/personal/nou/04ds/dijkstra.html
 ## https://zhuanlan.zhihu.com/p/34922624
+ 
