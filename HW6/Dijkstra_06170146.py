@@ -39,4 +39,20 @@ class Graph():
  
         self.printSolution(dist, s)
     
-      
+    def Kruskal(self):        
+        result = {}
+        val = sorted(self.dict)
+        checked = [column for column in range(self.V)]  
+        
+        for i in val:
+            for u,v in self.dict[i]:
+                if checked[u] == checked[v]:
+                    pass
+                else:
+                    checked = [checked[u]if x==checked[v] else x for x in checked]
+                    result[str(u)+'-'+str(v)] = i
+        return result
+
+    ###參考資料：https://www.itread01.com/content/1543636264.html
+    ### https://www.cl.cam.ac.uk/teaching/1819/Algorithms/res/dijkstra.py
+    ### https://repl.it/@yuanjieli/Dijkstras-algorithm-Python
