@@ -9,22 +9,13 @@ Dijkstra's Algorithm是一種「每次挑選當前最佳選擇(optimal solution)
 時間複雜度 O(ElogE) 可以改寫成 O(ElogV²) = O(2ElogV) = O(ElogV) 。
 
 ## 流程圖：
-![](/images/D.png)
+![](/images/S.jpg)
 
 ## 學習歷程：
-
-
-
-
-
-
-
-
-
-
-
-
-
+Dijkstra這個程式碼我想了蠻久的，因為前幾個都是用樹的邏輯去架構，而現在這個就不太ㄧ樣，再加上我還不小心得了流感，頭腦根本動不起來！所以有去參考網路上的資料做基底，老師只給了 def __init__(self, vertices): 與def addEdge(self,u,v,w): 但握參考網路上的資料，覺得再加def printSolution(self, dist, s):與def minDistance(self, dist, sptSet):會對我更好理解Dijkstra的程式架構，於是就加上去了，我一直在想sys是什麼，查完資料才知道，就加上import sys，這次作業又讓我多學到了一個python程式碼的功能，很開心！！謝謝老師給我們機會自我成長。
+![](/images/D.png)
+Kruskal相對於Dijkstra簡單許多，當上面的通了，下面就很好操刀，順了一下他的邏輯就蠻好想出來的。
+![](/images/k.png)
 
 
 
