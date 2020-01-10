@@ -21,24 +21,24 @@ getMin() -- Retrieve the minimum element in the stack.
 
 ![題目連結](https://leetcode.com/problems/two-sum/)
 
-![](/images/螢幕快照 2020-01-10 下午11.05.51.png)
+![](/images/1.png)
 
 ## 練習題三 (Reverse Integer)
 
 ![題目連結](https://leetcode.com/problems/reverse-integer/)
 
 
-![](/images/螢幕快照 2020-01-10 下午11.12.25.png)
+![](/images/2.png)
 
 
 ## 練習題四 (Next Permutation)
 
 ![題目連結](https://leetcode.com/problems/next-permutation/)
 
-![](/images/螢幕快照 2020-01-10 下午11.21.24.png)
+![](/images/3.png)
 
 ## 練習題五 (Longest Common Prefix)
 
 ![題目連結](https://leetcode.com/problems/longest-common-perfix/)
 
-![](/images/螢幕快照 2020-01-10 下午11.21.13.png)
+![](/images/4.png)
