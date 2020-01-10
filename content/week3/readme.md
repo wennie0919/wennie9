@@ -5,3 +5,7 @@
 4、於記憶體管理中的Call Stack。
 5、編譯器中的Parsing。
 
+## Queue應用
+1、演算法BFS會運用到Queue。
+2、可以array或linled list 實作。
+
