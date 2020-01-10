@@ -44,16 +44,6 @@
 
 
 
-# HELPER
-*CS50:https://www.youtube.com/channel/UCcabW7890RKJzL968QWEykA. 
-
-*方便放ipynb檔的：https://nbviewer.jupyter.org. 
-
-*README小幫手：https://github.com/hello02923/markdown-syntax-zhtw#block
-
-*筆記專用：https://hackmd.io/?nav=overview. 
-
-
 
 ## 心得
 這個學期算是最忙碌的時期，第一次對程式這麼認真的學習，因為自己本來就對寫程式沒什麼興趣，而且我自己覺得本身沒什麼那部份的天份，就很容易放棄。但這學期的這個必修一定要讓我要認真寫程式了，因為是必修，讓我一定要認真了，不過也謝謝老師的這麼堅持，我這半年真的學到了很多，我本來是連if while的用法都有困難的人，現在真的寫得出來了！我自己也不可思議，我的進步讓我驚訝也驕傲，成長是累積出來的。
