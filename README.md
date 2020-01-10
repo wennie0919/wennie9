@@ -38,6 +38,21 @@
 - [week 18]():放假回家投票
 
 
+# HELPER
+
+*CS50:https://www.youtube.com/channel/UCcabW7890RKJzL968QWEykA. 
+
+
+
+# HELPER
+*CS50:https://www.youtube.com/channel/UCcabW7890RKJzL968QWEykA. 
+
+*方便放ipynb檔的：https://nbviewer.jupyter.org. 
+
+*README小幫手：https://github.com/hello02923/markdown-syntax-zhtw#block
+
+*筆記專用：https://hackmd.io/?nav=overview. 
+
 
 
 ## 心得
